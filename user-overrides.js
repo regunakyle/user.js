@@ -47,3 +47,7 @@ user_pref("privacy.clearOnShutdown.sessions", true);  // [DEFAULT: true]
  * [1] https://bugzilla.mozilla.org/1407366
  * [2] https://hg.mozilla.org/mozilla-central/rev/6d2d7856e468#l2.32 ***/
 user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
+
+// Non-Arkenfox changes
+user_pref("signon.rememberSignons",false);
+user_pref("services.sync.engine.prefs",false);
