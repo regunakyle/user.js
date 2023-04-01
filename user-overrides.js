@@ -51,3 +51,4 @@ user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
 // Non-Arkenfox changes
 user_pref("signon.rememberSignons",false);
 user_pref("services.sync.engine.prefs",false);
+user_pref("media.peerconnection.enabled",false);
