@@ -31,11 +31,11 @@ user_pref("network.http.referer.XOriginPolicy", 0);
  * [NOTE] If "history" is true, downloads will also be cleared
  * [NOTE] "sessions": Active Logins: refers to HTTP Basic Authentication [1], not logins via cookies
  * [1] https://en.wikipedia.org/wiki/Basic_access_authentication ***/
-user_pref("privacy.clearOnShutdown.cache", true);     // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.cache", true); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.downloads", true); // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.formdata", true);  // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.history", false);   // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.sessions", true);  // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.formdata", true); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.history", false); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.sessions", true); // [DEFAULT: true]
 
 /* 4504: enable RFP letterboxing [FF67+]
  * Dynamically resizes the inner window by applying margins in stepped ranges [2]
@@ -49,6 +49,9 @@ user_pref("privacy.clearOnShutdown.sessions", true);  // [DEFAULT: true]
 user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
 
 // Non-Arkenfox changes
-user_pref("signon.rememberSignons",false);
-user_pref("services.sync.engine.prefs",false);
-user_pref("media.peerconnection.enabled",false);
+user_pref("signon.rememberSignons", false);
+user_pref("services.sync.engine.prefs", false);
+user_pref("media.peerconnection.enabled", false);
+// Use with `flatpak install org.freedesktop.Platform.ffmpeg-full`, improve video playback
+// See https://discourse.flathub.org/t/how-to-enable-video-hardware-acceleration-on-flatpak-firefox/3125
+user_pref("media.ffmpeg.vaapi.enabled", false);
