@@ -51,7 +51,6 @@ user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
 // Non-Arkenfox changes
 user_pref("signon.rememberSignons", false);
 user_pref("services.sync.engine.prefs", false);
-user_pref("media.peerconnection.enabled", false);
-// Use with `flatpak install org.freedesktop.Platform.ffmpeg-full`, improve video playback
-// See https://discourse.flathub.org/t/how-to-enable-video-hardware-acceleration-on-flatpak-firefox/3125
-user_pref("media.ffmpeg.vaapi.enabled", false);
+
+// Guide for Firefox hardware accleration:
+// https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration
