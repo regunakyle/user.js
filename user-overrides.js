@@ -51,6 +51,7 @@ user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
 // Non-Arkenfox changes
 user_pref("signon.rememberSignons", false);
 user_pref("services.sync.engine.prefs", false);
+user_pref("general.autoScroll", true);
 
 // Guide for Firefox hardware accleration:
 // https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration
