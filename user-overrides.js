@@ -15,6 +15,13 @@ user_pref("privacy.clearOnShutdown.formdata", true); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.history", false); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.sessions", true); // [DEFAULT: true]
 
+/* 0403: disable SB checks for downloads (remote)
+ * To verify the safety of certain executable files, Firefox may submit some information about the
+ * file, including the name, origin, size and a cryptographic hash of the contents, to the Google
+ * Safe Browsing service which helps Firefox determine whether or not the file should be blocked
+ * [SETUP-SECURITY] If you do not understand this, or you want this protection, then override this ***/
+user_pref("browser.safebrowsing.downloads.remote.enabled", true);
+
 /* 4504: enable RFP letterboxing [FF67+]
  * Dynamically resizes the inner window by applying margins in stepped ranges [2]
  * If you use the dimension pref, then it will only apply those resolutions.
