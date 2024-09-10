@@ -31,6 +31,8 @@ user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
 user_pref("signon.rememberSignons", false);
 user_pref("services.sync.engine.prefs", false);
 user_pref("general.autoScroll", true);
+user_pref("accessibility.browsewithcaret_shortcut.enabled", false);
+user_pref("accessibility.warn_on_browsewithcaret", false);
 
 // Guide for Firefox hardware accleration:
 // https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration
