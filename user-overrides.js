@@ -8,6 +8,8 @@ user_pref("browser.startup.page", 3);
 /* 2811: set/enforce what items to clear on shutdown (if 2810 is true) [SETUP-CHROME]
  * [NOTE] If "history" is true, downloads will also be cleared ***/
 user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false); // [DEFAULT: true]
+/* 2812: set/enforce clearOnShutdown items [FF136+] ***/
+user_pref("privacy.clearOnShutdown_v2.browsingHistoryAndDownloads", false); // [DEFAULT: true]
 
 /* 0403: disable SB checks for downloads (remote)
  * To verify the safety of certain executable files, Firefox may submit some information about the
