@@ -27,3 +27,4 @@ user_pref("media.gmp-gmpopenh264.provider.enabled", true);
 user_pref("media.peerconnection.video.h264_enabled", true);
 user_pref("services.sync.engine.prefs", false);
 user_pref("signon.rememberSignons", false);
+user_pref("dom.events.asyncClipboard.readText", false);
